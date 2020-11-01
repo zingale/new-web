@@ -1458,8 +1458,7 @@ input, select, textarea {
 	.bordered-feature-image {
 		display: block;
 		background: #fff url("images/bg04.png");
-		padding: 10px;
-		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		padding: 0px;
 		margin: 0 0 1.5em 0;
 		outline: 0;
 	}
@@ -1584,6 +1583,12 @@ input, select, textarea {
 		#features strong {
 			color: #fff;
 		}
+
+/* subtitle */
+        div.subtitle {
+            padding: 0 0 20px 0;
+            text-align: center;
+        }
 
 /* Content */
 
