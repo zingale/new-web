@@ -1510,7 +1510,11 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		position: relative;
+		position: fixed; /*relative;*/
+                width: 100%;
+                top: 0;
+                left: 0;
+                z-index: 100;
 		background: #522969;
 		border-bottom: none;
 	}
@@ -1524,7 +1528,9 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			bottom: 35px;
-			font-size: 2.0em;
+			font-size: 1.75em;
+		        font-weight: 600;
+                        text-transform: uppercase;
 		}
 
 			#header h1 a {
@@ -1561,7 +1567,7 @@ input, select, textarea {
 	#features {
 		background: #0f1116;
 		border-bottom: solid 1px #272e31;
-		padding: 45px 0 45px 0;
+		padding: 145px 0 45px 0;
 		color: #a0a8ab;
 	}
 
@@ -1584,7 +1590,7 @@ input, select, textarea {
 	#content {
 		background: #f7f7f7 url("images/bg04.png");
 		border-top: solid 1px #fff;
-		padding: 45px 0 45px 0;
+		padding: 145px 0 45px 0;
 	}
 
 		#content section {
@@ -1716,11 +1722,13 @@ input, select, textarea {
 
 			#header h1 {
 				font-size: 1.5em;
+                                text-transform: uppercase;
 			}
 
 			#header nav a {
 				font-size: 1.0em;
 			}
+
 
 		/* Content */
 
@@ -1762,6 +1770,11 @@ input, select, textarea {
 					display: none;
 				}
 
+                /* Features */
+	        #features {
+		    padding: 45px 0 45px 0;
+	        }
+
 		/* Content */
 
 			#content {
@@ -1801,13 +1814,14 @@ input, select, textarea {
 				z-index: 10001;
 				color: #fff;
                                 background: #522969;
+                                text-transform: uppercase;
 			}
 
 				#titleBar .title {
 					display: block;
 					text-align: center;
 					font-size: 1.2em;
-					font-weight: 400;
+					font-weight: 600;
 					line-height: 48px;
 				}
 
@@ -1876,8 +1890,8 @@ input, select, textarea {
 					display: block;
 					color: #fff;
 					text-decoration: none;
-					font-size: 1.25em;
-					line-height: 2em;
+					font-size: 1.0em;
+					line-height: 1.5em;
 					padding: 0.625em 1.5em 0.325em 1.5em;
 					border-top: solid 1px #373d40;
 					border-bottom: solid 1px rgba(0, 0, 0, 0.4);
