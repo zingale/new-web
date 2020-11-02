@@ -1585,13 +1585,29 @@ input, select, textarea {
 		}
 
 /* subtitle */
-        div.subtitle {
+        #subtitle {
             padding: 30px 0 80px 0;
+            line-height: 2em;
             text-align: center;
         }
 
-/* subtitle */
-        div.codes {
+        #subtitle h2 {
+            font-size: 1.2em;
+        }
+
+/* subtitle2 */
+        #subtitle2 {
+            padding: 30px 0 80px 0;
+            line-height: 2em;
+            text-align: center;
+        }
+
+        #subtitle2 h2 {
+            font-size: 1.2em;
+        }
+
+/* codes */
+        #codes {
             padding: 40px 0 20px 0;
         }
 
