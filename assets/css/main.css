@@ -1646,7 +1646,7 @@ input, select, textarea {
 		padding: 25px 0 25px 0;
 		background: #522969;
 		color: #fff;
-                font-size: 0.8em;
+                font-size: 0.9em;
 		line-height: 1.5em;
                 text-align: center;
 	}
@@ -1677,6 +1677,7 @@ input, select, textarea {
 		padding: 20px 0 20px 0;
                 background:  #0f1116;
 		color: #888888;
+                font-size: 0.8em;
 	}
 
 		#copyright a {
