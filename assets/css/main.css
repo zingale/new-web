@@ -1656,8 +1656,17 @@ input, select, textarea {
                         display: inline;
 		}
 
+		#content h4 {
+			color: #373f42;
+                        font-size: 1.25em;
+                        font-weight: 700;
+                        padding: 0;
+                        margin: 0;
+                        display: inline;
+		}
+
 		#content a {
-			color: #ED391B;
+			color: #522969;
 		}
 
 		#content header {
@@ -1675,6 +1684,20 @@ input, select, textarea {
 		#content .check-list li {
 			border-bottom: solid 1px #e2e6e8;
 		}
+
+                #content dt {
+                    padding-top: 0.5em;
+                    padding-left: 0.25em;
+                    padding-bottom: 0.25em;
+                    color: black;
+                }
+
+                #content dd {
+                    padding-left: 1.0em;
+                    padding-bottom: 1.0em;
+                    line-height: 1.25em;
+                }
+
 
 /* Footer */
 
@@ -1783,6 +1806,10 @@ input, select, textarea {
 
 			#content h3 {
 				font-size: 1.1em;
+			}
+
+			#content h4 {
+				font-size: 1.0em;
 			}
 
 			#content header {
@@ -2049,6 +2076,10 @@ input, select, textarea {
 #sidebar h3 {
 /*     font-weight: 700; */
 /*     font-size: 1.25em; */
+    display: block;
+}
+
+#sidebar h4 {
     display: block;
 }
 
