@@ -2040,15 +2040,15 @@ input, select, textarea {
     line-height: 1.5em;
 }
 
-#sidebar h2 {
-    font-weight: 800;
-    font-size: 1.6em;
-    text-transform: uppercase;
-}
+/* #sidebar h2 { */
+/*     font-weight: 800; */
+/*     font-size: 1.6em; */
+/*     text-transform: uppercase; */
+/* } */
 
 #sidebar h3 {
-    font-weight: 700;
-    font-size: 1.25em;
+/*     font-weight: 700; */
+/*     font-size: 1.25em; */
     display: block;
 }
 
@@ -2062,23 +2062,9 @@ input, select, textarea {
 
 /* Lists */
 
-ol.default {
-    list-style: decimal;
-    padding-left: 1.25em;
-}
-
-ol.default li {
-    padding-left: 0.25em;
-    padding-bottom: 0.25em;
-}
-
-ol.default li ol {
-    list-style: lower-alpha;
-}
-
 ul.default {
-    margin: 0em 0em 2em 0em;
-    padding: 0em 0em 1.5em 0em;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0.0em 0em;
     list-style: none;
 }
 
