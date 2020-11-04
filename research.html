@@ -41,63 +41,238 @@
       <section id="content">
 	<div class="container">
 	  <div class="row">
-	    <div class="col-3 col-12-medium">
+	    <div class="col-4 col-12-medium">
               <div id="sidebar">
 
 	        <!-- Sidebar -->
 	        <section>
-                  <ul>
-                    <li><h4><a href="https://scholar.google.com/citations?user=2wyHvK8AAAAJ&hl=en">Google Scholar page</a></h4></li>
+                  <header>
+                    <h3>Current Group</h3>
+                  </header>
 
-		    <li><h4><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22zingale%2C%20m%22&sort=date%20desc%2C%20bibcode%20desc">Publications on ADS</a></h4></li>
-
-                    <li><h4><a href="http://arxiv.org/find/astro-ph/1/au:+zingale_m/0/1/0/all/0/1?skip=0&amp;query_id=369e257f1b2bad3a">Publications on arXiv</a></h4></li>
-
-		    <li><h4><a href="./cv/publications.pdf">PDF list</a></h4></li>
+	          <ul>
+		    <li><span>Alice Harpole (postdoc)</span></li>
+		    <li><span>Xinlong Li (grad student)</span></li>
                   </ul>
+
 	        </section>
 
 	        <section>
-                  <ul>
-		    <li><h4><a href="./pub_year.html">Sort by year</a></h4>
-                   <ul>
-                     <li><a href='#2020'>2020</a>&nbsp;&nbsp;&nbsp;<a href='#2019'>2019</a>&nbsp;&nbsp;&nbsp;<a href='#2018'>2018</a></li>
-                     <li><a href='#2017'>2017</a>&nbsp;&nbsp;&nbsp;<a href='#2016'>2016</a>&nbsp;&nbsp;&nbsp;<a href='#2015'>2015</a></li>
-                     <li><a href='#2014'>2014</a>&nbsp;&nbsp;&nbsp;<a href='#2013'>2013</a>&nbsp;&nbsp;&nbsp;<a href='#2012'>2012</a></li>
-                     <li><a href='#2011'>2011</a>&nbsp;&nbsp;&nbsp;<a href='#2010'>2010</a>&nbsp;&nbsp;&nbsp;<a href='#2009'>2009</a></li>
-                     <li><a href='#2008'>2008</a>&nbsp;&nbsp;&nbsp;<a href='#2007'>2007</a>&nbsp;&nbsp;&nbsp;<a href='#2006'>2006</a></li>
-                     <li><a href='#2005'>2005</a>&nbsp;&nbsp;&nbsp;<a href='#2004'>2004</a>&nbsp;&nbsp;&nbsp;<a href='#2003'>2003</a></li>
-                     <li><a href='#2002'>2002</a>&nbsp;&nbsp;&nbsp;<a href='#2001'>2001</a>&nbsp;&nbsp;&nbsp;<a href='#2000'>2000</a></li>
-</ul>
+	          <header>
+		    <h3>Former Students</h3>
+	          </header>
 
-                    </li>
-		    <li><h4><a href="./pub_subj.html">Sort by subject</a></h4>
-		   
-                </li>
-	      </ul>
-
+	          <ul>
+                    <li><span>Chris Malone (PhD 2011)</span></li>
+                    <li><span>Max Katz (PhD 2016)</span></li>
+                    <li><span>Adam Jacobs (PhD 2016)</span></li>
+                    <li><span>Mu-Hung Chang (MA 2017)</span></li>
+                    <li><span>Hengrui Zhan (MA 2019)</span></li>
+                    <li><span>Maria Barrios Sazo (PhD 2020)</span></li>
+	          </ul>
 	        </section>
+
+	        <section>
+	          <header>
+		    <h3>Funding and Support</h3>
+	          </header>
+
+	          <ul>
+                    <li>
+                      <span>Support for developing the codes here is
+                        provided by the Department of Energy Office of
+                        Nuclear Physics, the Department of Energy Exascale
+                        Compute Project, and the Department of Energy SciDAC
+                        Program.</span>
+                    </li>
+	          </ul>
+	        </section>
+
               </div>
 	    </div>
-	    <div class="col-9 col-12-medium imp-medium">
 
-	      <!-- Main Content -->
-	      <section>
-		<header>
-		  <h2>Publications</h2>
-		</header>
+	    <div class="col-8 col-12-medium imp-medium">
+              <div id="code">
 
-	      <p><h2><a name='2020'></a>2020</h2>
+	        <!-- Main Content -->
+	        <section>
+		  <header>
+		    <h1>Current Research</h1>
+		  </header>
 
-<dl>
-<dt><a href='https://doi.org/10.1088/1742-6596/1623/1/012015'>Modelling low Mach number stellar hydrodynamics with MAESTROeX</a></dt>
-<dd>Harpole, A., Fan, D., Katz, M. P., Nonaka, A. J., Willcox, D. E., &amp; Zingale, M. 2020, Journal of Physics: Conference Series, 1623, p. 012015, 14th Int. Conf. on Numerical Modeling of Space Plasma Flows: ASTRONUM-2019 1-5 July 2019, Paris, France</dd>
+	          <div class="row">
+	            <div class="col-6 col-12-medium">
 
-<dt><a href='https://doi.org/10.1088/1742-6596/1623/1/012021'>The Castro AMR Simulation Code: Current and Future Developments</a></dt>
-<dd>Zingale, M., Almgren, A. S., Barrios Sazo, M., Bell, J. B., Eiden, K., Harpole, A., Katz, M. P., Nonaka, A. J., Willcox, D. E., &amp; Zhang, W. 2020, Journal of Physics: Conference Series, 1623, p. 012021, 14th Int. Conf. on Numerical Modeling of Space Plasma Flows: ASTRONUM-2019 1-5 July 2019, Paris, France</dd>
+                      <ul>
+                        <li>
+	                  <a href="./simulations/wdmerger/" class="image featured">
+		            <img src="research_images/wdmerger.png" alt="wd merger"></a>
 
-	      </section>
+                          <div class="codebox">
+                            <h3>White Dwarf Mergers</h3>
 
+                            <p>We are modeling the inspiral of binary white
+		              dwarfs with the compressible Castro code to
+		              explore the double degenerate mechanism for Type
+		              Ia supernovae.</p>
+
+                          </div>
+                        </li>
+
+                        <li>
+	                  <a href="./simulations/algorithms/" class="image featured">
+		            <img src="research_images/lowMach_on.png" alt="algorithms"></a>
+
+                          <div class="codebox">
+                            <h3>Simulation Codes / Algorithms</h3>
+
+                            <p>We develop the low Mach number hydrodynamics
+                              code <a href="https://github.com/AMReX-Astro/MAESTROeX">MAESTROeX</a>,
+                              the compressible simulation
+                              code <a href="https://github.com/AMReX-Astro/Castro">Castro</a>,
+                              and work on high performance computing and
+                              new time integration techniques for high
+                              fidelity simulations.</p>
+                          </div>
+                        </li>
+
+                      </ul>
+                    </div>
+
+	            <div class="col-6 col-12-medium">
+
+                      <ul>
+                        <li>
+	                  <a href="./simulations/xrb" class="image featured">
+		            <img src="images/xrb_square.png" alt=""></a>
+
+                          <div class="codebox">
+		            <h3>X-ray bursts</h3>
+
+                            <p>We are exploring both the convection that
+                              precedes the runaway and the flame spreading
+                              across the neutron star in X-ray bursts.</p>
+                          </div>
+
+                        </li>
+                      </ul>
+
+                    </div>
+
+                  </div> <!-- row -->
+
+	        </section>
+
+	        <section>
+		  <header>
+		    <h1>Previous Research</h1>
+		  </header>
+
+	          <div class="row">
+	            <div class="col-6 col-12-medium">
+
+                      <ul>
+                        <li>
+	                  <a href="./simulations/wdconvect" class="image featured">
+		            <img src="research_images/sm_wd_2304_convect.png" alt="wd convection"></a>
+
+                          <div class="codebox">
+		            <h3>White Dwarf Convection</h3>
+
+                            <p>In the Chandra model for Type Ia
+		              supernova, reactions at the center of
+		              the white dwarf slowly heat the star,
+		              driving convection. Hot plumes buoyantly
+		              rise and cool via expansion. As the star
+		              continues to heat up, eventually a flame
+		              ignites. Understanding where the initial
+		              flames form is critical to understanding
+		              the subsequent explosion. We model the
+		              final stages of convection in a white
+		              dwarf, preceding the ignition.</p>
+                          </div>
+
+                        </li>
+
+                        <li>
+	                  <a href="./simulations/bubbles" class="image featured">
+		            <img src="research_images/bubble_on.png" alt="buoyant bubbles"></a>
+
+                          <div class="codebox">
+		            <h3>Reacting Buoyant Bubbles</h3>
+
+                            <p>When the first flames ignite in a Type
+		              Ia supernova, they buoyantly float
+		              upward as they burn outward. We have
+		              performed fully resolved studies of
+		              burning rising bubbles in both two and
+		              three dimensions in conditions
+		              appropriate to Type Ia supernovae to
+		              better understand these dynamics.</p>
+
+                          </div>
+
+                        </li>
+                      </ul>
+
+                    </div>
+
+	            <div class="col-6 col-12-medium">
+
+                      <ul>
+                        <li>
+	                  <a href="./simulations/subchandra" class="image featured">
+		            <img src="images/subch_square.png" alt="Sub-Ch SN Ia"></a>
+
+                          <div class="codebox">
+                            <h3>sub-Chandra SN Ia</h3>
+
+                            <p>We are exploring the convective burning
+                              leading up to the ignition of a burning
+                              front in a helium layer on the surface
+                              of a white dwarf.</p>
+                          </div>
+                        </li>
+
+                        <li>
+	                  <a href="./simulations/rt3d" class="image featured">
+		            <img src="research_images/rt3d_on.png" alt="3-d Rayleigh-Taylor"></a>
+
+                          <div class="codebox">
+                            <h3>Reactive Rayleigh-Taylor</h3>
+
+                            <p>The Rayleigh-Taylor instability plays
+		              a critical role in accelerating the burning
+		              front in Type Ia supernovae. We performed
+		              the first three-dimensional, direct
+		              numerical simulations of carbon flames in
+		              Type Ia supernovae undergoing the
+		              Rayleigh-Taylor instability and the
+		              transition to turbulence.</p>
+                          </div>
+                        </li>
+
+                        <li>
+	                  <a href="./simulations/xray_gallery" class="image featured">
+		            <img src="research_images/xray_on.png" alt="helium detonation on NS"></a>
+
+                          <div class="codebox">
+                            <h3>Helium Detonations on Neutron Stars</h3>
+
+                            <p>Two-dimensional calculations of the
+		              dynamics of the explosion from my thesis. We
+		              follow the detonation wave as it propagates
+		              2 km across the surface of the neutron
+		              star.</p>
+                          </div>
+                        </li>
+                      </ul>
+
+                    </div>
+
+	        </section>
+
+              </div> <!-- code -->
 	    </div>
 	  </div>
 	</div>
