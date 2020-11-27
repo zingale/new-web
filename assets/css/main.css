@@ -2256,3 +2256,19 @@ ul.style span.collab {
     margin: 0em;
     margin-top: 0.25em;
 }
+
+.about_pic img {
+    display: inline;
+    float: right;
+    padding: 1em;
+    margin: 1em;
+    width: 50%;
+}
+
+span.tiny {
+    font-size: 0.75em;
+}
+
+em {
+    font-style: italic;
+}
